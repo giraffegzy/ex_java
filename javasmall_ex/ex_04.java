@@ -13,6 +13,7 @@ public class ex_04 {
         if(n==1 || n==2)
             return 1;
         else
-            return rabbit_num(n-1)+rabbit_num(n-2);
+            return rabbit_num(n - 1) + rabbit_num(n - 2);
+
     }
 }
