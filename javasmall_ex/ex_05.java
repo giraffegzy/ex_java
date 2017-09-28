@@ -5,7 +5,7 @@ package javasmall_ex;
 
 public class ex_05 {
     public static void main(String[] args) {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 100; i < 1000; i++) {
             if (sarch_num(i))
             System.out.println(i + "是水仙数");
         }
