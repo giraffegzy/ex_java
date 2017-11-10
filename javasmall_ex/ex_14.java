@@ -7,6 +7,7 @@ public class ex_14 {
     public static void main(String[] args) {
     int [] arr = new int[]{10,9,8,7,6,5,4,3,2,1};
         System.out.println("排序前："+Arrays.toString(arr));
+        changeArr(arr);
         System.out.println("排序后："+Arrays.toString(changeArr(arr)));
     }
     public static int [] changeArr(int[]arr){
