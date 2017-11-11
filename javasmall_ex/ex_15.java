@@ -65,6 +65,7 @@ public class ex_15 {
         Scanner sc = new Scanner(System.in);
         String str ="";
         StringBuffer sb = new StringBuffer();
+        int counts = 0;
           while (!str.equals("end")) {
               str = sc.next();
               if(str.equals("end")){
@@ -75,9 +76,11 @@ public class ex_15 {
                       if (ch>='A'&&ch<='Z'){
                           String slo = Character.toString(ch).toLowerCase();
                           sb.append(slo);
+                          counts++;
                       }else if(ch>='a'&&ch<='z'){
                           String sup = Character.toString(ch).toUpperCase();
                           sb.append(sup);
+                          counts++;
                       }else{
                           String scc  = Character.toString(ch).replace(ch,'*');
                           sb.append(scc);
@@ -85,7 +88,7 @@ public class ex_15 {
                   }
               }
           }
-        System.out.println(sb);
+        System.out.println("替换后的字符为："+sb+" "+"字母个数为："+counts);
     }
 }
 
