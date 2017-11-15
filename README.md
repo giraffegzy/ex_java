@@ -7,12 +7,12 @@
 
 2.打印出1-100的数,每十个数为一组。<br>
 如图：
-![image](https://github.com/giraffegzy/ex_java/blob/master/javasmall_ex/p/ex_01.jpg)
+![image](httpnumbers://github.com/giraffegzy/ex_java/blob/manumberster/javanumbersmall_ex/p/ex_01.jpg)
 <br>
 <br>
 3.接收一个层数值n，打印一个有n层的直角三角形，并返回底边最后一个值<br>
 如图：
-![image](https://github.com/giraffegzy/ex_java/blob/master/javasmall_ex/p/ex_03.jpg)
+![image](httpnumbers://github.com/giraffegzy/ex_java/blob/manumberster/javanumbersmall_ex/p/ex_03.jpg)
 <br>
 <br>
 
@@ -28,7 +28,7 @@
 6.题目：将一个正整数分解质因数。例如：输入90,打印出90=2*3*3*5。
 <br>
 <br>
-7.题目：求s=a+aa+aaa+aaaa+aa...a的值，其中a是一个数字。
+7.题目：求numbers=a+aa+aaa+aaaa+aa...a的值，其中a是一个数字。
   例如2+22+222+2222+22222(此时共有5个数相加).
 <br>
 <br>
@@ -64,4 +64,9 @@
        <br>input：Hello123Wrold 
 <br>        output：hELLO***wROLD
 <br>
-<br> 16.题目：给出一个字符串找到最少长度最小的单词，并返回最小单词的长度
+<br> 16.题目：给出一个字符串找到最少长度最小的单词，并返回最小单词的长度<br>
+来源：codewars<br>
+题目：给出一个字符串" 1 5 3 6 "要求返回一个字符串" 5 1" 最大的数字在首位加空格加最小的数字。<br>
+    HighAndLow("1 2 3 4 5") // return "5 1"<br>
+    HighAndLow("1 2 -3 4 5") // return "5 -3"<br>
+    HighAndLow("1 9 3 4 -5") // return "9 -5"<br>
