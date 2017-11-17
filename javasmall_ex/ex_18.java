@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 
 /*
-* 题目：简单实现斗地主的发牌，洗牌，和看牌功能。
+* 题目：简单实现斗地主的发牌，洗牌，和看牌功能。牌根据大小排序。
 *
 * */
 public class ex_18 {
