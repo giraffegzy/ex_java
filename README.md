@@ -64,9 +64,11 @@
        <br>input：Hello123Wrold 
 <br>        output：hELLO***wROLD
 <br>
-<br> 16.题目：给出一个字符串找到最少长度最小的单词，并返回最小单词的长度<br>
+<br> 17.题目：给出一个字符串找到最少长度最小的单词，并返回最小单词的长度<br>
 来源：codewars<br>
 题目：给出一个字符串" 1 5 3 6 "要求返回一个字符串" 5 1" 最大的数字在首位加空格加最小的数字。<br>
     HighAndLow("1 2 3 4 5") // return "5 1"<br>
     HighAndLow("1 2 -3 4 5") // return "5 -3"<br>
     HighAndLow("1 9 3 4 -5") // return "9 -5"<br>
+    
+18.题目：简单实现斗地主的发牌，洗牌，和看牌功能。<br>
