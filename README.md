@@ -76,4 +76,6 @@
 19.题目：返回一个字符串里面，位于中间的字符，如果是偶数，则返回中间两个字符，如果是奇数则返回最中间的。<br>
     Kata.getMiddle("test") should return "es"<br>
     Kata.getMiddle("testing") should return "t"<br>
+    
+20.题目：返回一个字符在字符串中的个数。忽略大小写
 
