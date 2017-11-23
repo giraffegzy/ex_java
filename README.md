@@ -77,5 +77,9 @@
     Kata.getMiddle("test") should return "es"<br>
     Kata.getMiddle("testing") should return "t"<br>
     
-20.题目：返回一个字符在字符串中的个数。忽略大小写
+20.题目：返回一个字符在字符串中的个数。忽略大小写<br>
+
+
+21.题目:给出一个奇数数组，返回数组中的唯一值<br>
+     stray([1,1,1,0,1])---->return 0<br>
 
