@@ -114,3 +114,13 @@ You want to know how many of the stones you have are also jewels.
     <br>Example 1:
     Input: J = "aA", S = "aAAbbbb"
     Output: 3
+    
+29.(leetcode-657)
+From :leetcode-657(easy)
+Initially, there is a Robot at position (0, 0). Given a sequence of its moves, judge if this robot makes a circle, which means it moves back to the original place.
+The move sequence is represented by a string. And each move is represent by a character.
+The valid robot moves are R (Right), L (Left), U (Up) and D (down).
+The output should be true or false representing whether the robot makes a circle.<br>
+Example 1:   <br> 
+Input: "UD"<br>
+Output: true
