@@ -105,3 +105,12 @@
 其中“A”是1，“Z”是26。例如，“USACO”小组就是21*19*1*3*15=17955。如果小组的数字 mod 47等于彗星的数字mod 47
 你就得告诉这个小组需要准备好被带走！（记住“a mod b”是a除以b的余数；34 mod 10等于4）
 如果能搭配，就输出“GO”，否则输出“STAY”。小组名和彗星名均是没有空格或标点的一串大写字母（不超过6个字母）。
+
+28.(leetcode-771)
+You're given strings J representing the types of stones that are jewels, and S representing the stones you have.  Each character in S is a type of stone you have.
+You want to know how many of the stones you have are also jewels.
+    The letters in J are guaranteed distinct, and all characters in J and S are letters.
+    Letters are case sensitive, so "a" is considered a different type of stone from "A".
+    <br>Example 1:
+    Input: J = "aA", S = "aAAbbbb"
+    Output: 3
