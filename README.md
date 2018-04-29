@@ -124,3 +124,7 @@ The output should be true or false representing whether the robot makes a circle
 Example 1:   <br> 
 Input: "UD"<br>
 Output: true
+
+30.（leetcode-461）<br>
+求两个数的汉明距离
+
