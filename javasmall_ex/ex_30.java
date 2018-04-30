@@ -8,13 +8,14 @@ package javasmall_ex;
 public class ex_30 {
     public static void main(String[] args) {
 
-        System.out.println(4&3);
+        int i = hammingDistance(4,1);
+        System.out.println(i)
     }
     public static int hammingDistance(int x, int y) {
-        int sum = x^y;
+        int num = x^y;
         int count;
         for(count = 0; sum > 0; count++){
-            sum &= (sum - 1);
+            num &= (num - 1);
         }
         return count;
     }
