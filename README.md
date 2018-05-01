@@ -106,7 +106,7 @@
 你就得告诉这个小组需要准备好被带走！（记住“a mod b”是a除以b的余数；34 mod 10等于4）
 如果能搭配，就输出“GO”，否则输出“STAY”。小组名和彗星名均是没有空格或标点的一串大写字母（不超过6个字母）。
 
-28.(leetcode-771)
+28.(LeetCode-771)
 You're given strings J representing the types of stones that are jewels, and S representing the stones you have.  Each character in S is a type of stone you have.
 You want to know how many of the stones you have are also jewels.
     The letters in J are guaranteed distinct, and all characters in J and S are letters.
@@ -115,8 +115,8 @@ You want to know how many of the stones you have are also jewels.
     Input: J = "aA", S = "aAAbbbb"
     Output: 3
     
-29.(leetcode-657)
-From :leetcode-657(easy)
+29.(LeetCode-657)
+From :LeetCode-657
 Initially, there is a Robot at position (0, 0). Given a sequence of its moves, judge if this robot makes a circle, which means it moves back to the original place.
 The move sequence is represented by a string. And each move is represent by a character.
 The valid robot moves are R (Right), L (Left), U (Up) and D (down).
@@ -125,6 +125,11 @@ Example 1:   <br>
 Input: "UD"<br>
 Output: true
 
-30.（leetcode-461）<br>
+30.（LeetCode-461）<br>
 求两个数的汉明距离
 
+31.（LeetCode-467）<br>
+ 题目:给定一个正整数，输出它的补数。补数是对该数的二进制表示取反。<br>
+ 思路： <br>1.将正整数转成二进制 (两种方法①Integer自带toBinaryString方法。②自己实现转换）<br>
+        2.二进制取反<br>
+        3.二进制转成十进制（Integer的parseInt方法）

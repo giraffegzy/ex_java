@@ -9,12 +9,12 @@ public class ex_30 {
     public static void main(String[] args) {
 
         int i = hammingDistance(4,1);
-        System.out.println(i)
+        System.out.println(i);
     }
     public static int hammingDistance(int x, int y) {
         int num = x^y;
         int count;
-        for(count = 0; sum > 0; count++){
+        for(count = 0; num > 0; count++){
             num &= (num - 1);
         }
         return count;
