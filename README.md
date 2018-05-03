@@ -6,14 +6,9 @@
 
 
 2.打印出1-100的数,每十个数为一组。<br>
-如图：
-![image](httpnumbers://github.com/giraffegzy/ex_java/blob/manumberster/javanumbersmall_ex/p/ex_01.jpg)
 <br>
 <br>
 3.接收一个层数值n，打印一个有n层的直角三角形，并返回底边最后一个值<br>
-如图：
-![image](httpnumbers://github.com/giraffegzy/ex_java/blob/manumberster/javanumbersmall_ex/p/ex_03.jpg)
-<br>
 <br>
 
 4.有一对兔子，从出生后第3个月起每个月都生一对兔子，小兔子长到第三个月后每个月又生一对兔子，假如兔子都不死，问n个月的兔子对数为多少？<br>
@@ -130,7 +125,7 @@ Output: true
 
 31.（LeetCode-467）<br>
  题目:给定一个正整数，输出它的补数。补数是对该数的二进制表示取反。<br>
- 思路： <br>1.将正整数转成二进制 (两种方法①Integer自带toBinaryString方法。②自己实现转换）<br>
+ 我的思路： <br>1.将正整数转成二进制 (两种方法①Integer自带toBinaryString方法。②自己实现转换）<br>
         2.二进制取反<br>
         3.二进制转成十进制（Integer的parseInt方法）
 
@@ -161,3 +156,9 @@ Output: true
 我的思路:<br>1.首先判断首字母在那一行字母当中，就可以选取那一行作为条件进行判断。<br>
              2.用单词去匹配那一行字母，如果符合要求就添加到List容器中。<br>
              3.最后用字符串数组返回作为结果。<br>
+
+36.(LeetCdoe-344)<br>
+题目:逆序输出给出的字符串<br>
+我的思路:<br>1.拆分字符串<br>
+             2.for循环逆序<br>
+             3.返回结果。<br>
