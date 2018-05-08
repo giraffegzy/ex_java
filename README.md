@@ -200,3 +200,11 @@ Output: true
 43.LeetCode-171(ExcelNameNumber)<br>
     题目:<br>给定一个Excel表格中的列名称，返回其相应的列序号。<br>
     我的思路:1.二十六进制转化十进制。<br>
+    
+    
+44.LeetCode-371(SumTwoInteger)<br>
+     题目:不使用运算符 + 和-，计算两整数a 、b之和。<br>
+     我的思路:<br>1.先与运算找到进位.<br>
+                   2.用异或找到不同位.<br>
+                   3.左移一位.<br>
+                   4直到b==0.
