@@ -20,8 +20,6 @@ public class ex_48_NumberLines {
         String s = "zlrovckbgjqofmdzqetflraziyvkvcxzahzuuveypqxmjbwrjvmpdxjuhqyktuwjvmbeswxuznumazgxvitdrzxmqzhaaudztgie";
         System.out.println(Arrays.toString(numberOfLines(widths,s)));
 
-
-
     }
     public  static int[] numberOfLines(int[] widths, String S) {
         int count = 1;
