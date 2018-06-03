@@ -23,15 +23,13 @@ public class ex_65_TwoSum {
         if(nums==null||nums.length<2)
             return result;
         HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
-        for(int i = 0; i < nums.length; i++){
-            if(!map.containsKey(target-nums[i])){
-                map.put(nums[i],i);
-            }else{
-                result[0]= map.get(target-nums[i]);
-                result[1]= i;
-                break;
-            }
-        }
+             for(int i=0;i<nums.length;i++){
+                 if(map.containsKey(target-nums[i])){
+                     result[0]=i;
+                     result[1]=map.get(target-nums[i]);
+                 }
+                 map.put(nums[i],i);
+             }
         return result;
     }
 
