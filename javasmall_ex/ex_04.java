@@ -1,4 +1,4 @@
-package javasmall_ex;
+
 import java.util.Scanner;
 //实现斐波那契数列
 public class ex_04 {
